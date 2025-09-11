@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Game Library</title>
+    <!-- 🎮 -->
+    <link
+      rel="icon"
+      type="icon"
+      href="./images/—Pngtree—retro neon video game controller_17879972.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <h1>Game Library 🎮</h1>
+    </div>
+    <div id="container">
+      <div class="game-container">
+        <h1>Red Dead Redemption <span style="color: red">II</span></h1>
+        <h3>Arthur Morgan</h3>
+        <p>
+          Red Dead Redemption 2 is a 2018 action-adventure game developed and
+          published by Rockstar Games. The game is the third entry in the Red
+          Dead series and a prequel to the 2010 game Red Dead Redemption.
+        </p>
+        <button onclick="del(event)">Delete</button>
+      </div>
+    </div>
+
+    <button class="add-btn" id="pop-btn">+</button>
+
+    <div class="pop-overlay"></div>
+    <div class="popupmenu">
+      <h2>Add Game</h2>
+      <form id="gamelib">
+        <input type="text" id="name" placeholder="Game Name" required />
+        <input
+          type="text"
+          id="character"
+          placeholder="Favorite Character"
+          required
+        />
+        <textarea
+          id="description"
+          placeholder="Short Description.."
+          required
+        ></textarea>
+        <button id="add-game" type="submit">ADD</button>
+        <button id="cancel-pop">CANCEL</button>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
