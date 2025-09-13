@@ -50,10 +50,11 @@ var gamedes=document.getElementById("description")
     container.append(div)
     over.style.display="none"
     pop.style.display="none"
-
+    form.reset();
 })
 
 function del(event)
 {
     event.target.parentElement.remove()
 }
+
