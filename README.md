@@ -1,2 +1,18 @@
-# Game-Library
-The Game Library is an interactive web application designed to help users create and manage their personal collection of video games. It provides a clean and intuitive interface where users can add details of their favorite games, including the game's name, favorite character, and a short description.
+# 🎮 Game-Library App
+
+A simple and responsive Game Library web application that lets users browse a collection of games with images and details.  
+Perfect for demonstrating front-end skills and working with structured data display.
+
+### 🚀 Live Demo
+
+
+### 🔧 Features:
+- Display a collection of games in a grid layout
+- Game images, titles, and descriptions
+- Responsive design for desktop and mobile
+- Easy to customize the library with new games
+
+### 🛠️ Technologies Used:
+- HTML
+- CSS
+- JavaScript
