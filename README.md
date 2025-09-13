@@ -1,16 +1,19 @@
-# 🎮 Game-Library App
+# 🎮 Game-Library
 
-A simple and responsive Game Library web application that lets users browse a collection of games with images and details.  
-Perfect for demonstrating front-end skills and working with structured data display.
+A simple and responsive Game Library web application where users can view a collection of games along with their favorite characters and a short description.  
+Perfect for practicing front-end layout and structured data display.
 
 ### 🚀 Live Demo
 
 
 ### 🔧 Features:
-- Display a collection of games in a grid layout
-- Game images, titles, and descriptions
+- Display a list of games with:
+  - Game Name
+  - Favorite Character
+  - Short Description
+- Clean and readable layout
 - Responsive design for desktop and mobile
-- Easy to customize the library with new games
+- Easy to update and add new games
 
 ### 🛠️ Technologies Used:
 - HTML
