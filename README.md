@@ -4,7 +4,7 @@ A simple and responsive Game Library web application where users can view a coll
 Perfect for practicing front-end layout and structured data display.
 
 ### 🚀 Live Demo
-https://devanand.is-a.dev/game-library/
+🌐 https://devanand.is-a.dev/game-library/
 
 ### 🔧 Features:
 - Display a list of games with:
